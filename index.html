@@ -6,6 +6,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css"> 
+  <script src="script.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | FAQ accordion</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,11 +22,14 @@
 </head>
 <body>
   <main id="main-container">
-    <h1>FAQ</h1>
+    <div class="header">
+      <img src="assets/images/icon-star.svg" alt="star icon" class="star-icon">
+      <h1>FAQs</h1>
+    </div>
 
     <!-- Question 1 -->
     <div class="question">
-      <h4 class="question">What is Frontend Mentor, and how will it help me? </h4>
+      <h4>What is Frontend Mentor, and how will it help me? </h4>
       <button class="toggle">+</button>
     </div>
     <div class="answer">
